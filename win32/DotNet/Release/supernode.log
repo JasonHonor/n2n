@@ -1,0 +1,29 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (edge.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  n2n.c
+c:\thirdparty\n2n\win32/n2n_win32.h(48): warning C4005: “EAFNOSUPPORT”: 宏重定义
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\errno.h(86): note: 参见“EAFNOSUPPORT”的前一个定义
+  sn.c
+c:\thirdparty\n2n\win32/n2n_win32.h(48): warning C4005: “EAFNOSUPPORT”: 宏重定义
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\errno.h(86): note: 参见“EAFNOSUPPORT”的前一个定义
+..\..\sn.c(327): warning C4477: “_snprintf”: 格式字符串“%lu”需要类型“unsigned long”的参数，但可变参数 1 拥有了类型“time_t”
+  ..\..\sn.c(327): note: 请考虑在格式字符串中使用“%llu”
+  ..\..\sn.c(327): note: 请考虑在格式字符串中使用“%I64u”
+  wire.c
+c:\thirdparty\n2n\win32/n2n_win32.h(48): warning C4005: “EAFNOSUPPORT”: 宏重定义
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\errno.h(86): note: 参见“EAFNOSUPPORT”的前一个定义
+  getopt.c
+  getopt1.c
+  version-msvc.c
+  wintap.c
+c:\thirdparty\n2n\win32/n2n_win32.h(48): warning C4005: “EAFNOSUPPORT”: 宏重定义
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\errno.h(86): note: 参见“EAFNOSUPPORT”的前一个定义
+..\wintap.c(45): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1850): note: 参见“inet_addr”的声明
+..\wintap.c(170): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1850): note: 参见“inet_addr”的声明
+..\wintap.c(171): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winsock2.h(1850): note: 参见“inet_addr”的声明
+  正在生成代码
+  已完成代码的生成
+  supernode.vcxproj -> C:\ThirdParty\n2n\win32\DotNet\Release\supernode.exe
+  supernode.vcxproj -> C:\ThirdParty\n2n\win32\DotNet\Release\supernode.pdb (Full PDB)
